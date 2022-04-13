@@ -23,9 +23,4 @@ Execute file
 bash durasteel/install.sh
 ```  
 
-Restart the machine
-```
-sudo init 6
-```
-
 (c)2022 Bayani Elogada
