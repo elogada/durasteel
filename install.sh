@@ -28,5 +28,5 @@ sudo apt -y install open-vm-tools virtualbox
 echo "[+] Autoremoving excess files..."
 sleep 1
 sudo apt -y autoremove
-echo "[!] Script finished!"
+sudo init 6
 sleep 2
