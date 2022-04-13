@@ -4,8 +4,8 @@ Basic installation automation for bare metal servers. Absolutely in test phase. 
 ### Installation instructions
 Install git
 ```
-apt update
-apt install git
+sudo apt update
+sudo apt install git
 ```
 
 Clone the repository first  
@@ -22,3 +22,10 @@ Execute file
 ```
 bash durasteel/install.sh
 ```  
+
+Restart the machine
+```
+sudo init 6
+```
+
+(c)2022 Bayani Elogada
